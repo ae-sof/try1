@@ -71,7 +71,7 @@ if st.session_state.page == 'feature_offering':
                 
         left_co, cent_co,last_co = st.columns(3)
         with cent_co:
-            st.image("https://raw.githubusercontent.com/username/repository/branch/path/to/savetime2 again.png", width=200)
+            st.image("https://raw.githubusercontent.com/username/repository/branch/path/to/savetime2 again.png", width=200, height=200)
             
         # Title with new color
         st.markdown('<h2>Save Time and Energy!</h2>', unsafe_allow_html=True)
